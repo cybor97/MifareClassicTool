@@ -156,7 +156,6 @@
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/textViewCreateKeyMapProgess"
                 android:max="100"
-                android:indeterminate="true"
                 android:paddingBottom="5dp"
                 android:paddingRight="5dp"
                 android:paddingTop="10dp"/>
@@ -208,14 +207,5 @@
                 android:onClick="onUseBruteForce"
                 android:text="@string/action_random_mode"/>
     </RelativeLayout>
-
-    <TextView
-            android:id="@+id/cardNotFoundPlaceholder"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#dd232323"
-            android:gravity="center"
-            android:textAlignment="gravity"
-            android:text="card not found"/>
 
 </RelativeLayout>
